@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	margin-left: -3%;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	position: relative;
+	color: white;
+}
+.product {
+	margin-left: 10%;
+	border-color: white;
+	color: white;
+}
+img {
+	object-fit: cover;
+	border-radius: 7px;
+	max-width: 400px;
+	max-height: 400px;
+	position: absolute;
+}
+button {
+	border-radius: 7px;
+	width: 700px;
+	margin-top: 1%;
+	margin-left: 30%;
+	position: absolute;
+	color: black;
+	font-family: sans-serif;
+	font-size: 24px;
+	background-color: rgb(50, 255, 50);
+	border-color: rgb(50, 150, 50);
+	height: 50px;
+}
+
+button:hover {
+	background-color: rgb(0, 255, 0);
+	box-shadow: 0 0 0 2px black, 0 0 0 4px rgb(50, 150, 50);
+}
+span {
+	position: absolute;
+	font-size: 50px;
+	margin-top: 17%;
+	margin-left: 21.5%;
+}
+.name {
+	font-size: 30px;
+	margin-left: 22%;
+}
+.option {
+	font-size: 24px;
+	position: absolute;
+	margin-left: 21%;
+	width: 200px;
+}
